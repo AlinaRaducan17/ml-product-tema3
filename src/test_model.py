@@ -25,6 +25,6 @@ while True:
         "product code": "UNKNOWN",        # fallback
         "number of views": 0              # fallback
     }])
-    # Predict sentiment
+    # Predict category
     prediction = model.predict(user_input)[0]
     print(f"Predicted category: {prediction}\n" + "-" * 40)
